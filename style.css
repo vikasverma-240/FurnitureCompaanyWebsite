@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+
+.navbar-brand {
+    font-size: 29px;
+    font-weight: bold;
+}
+.navbar-brand span{
+    color: #FFAA47;
+}
+
+.nav-item .nav-link{
+    font-size: 19px;
+    font-weight: 600;
+    color: black !important;
+}
+
+.nav-link:hover{
+    color: #FFAA47 !important;
+}
+
+.btn-success{
+    background-color: #FFAA47 !important;
+    outline: none;
+    border: none;
+    border-radius: 22px;
+}
+
+.btn-success:hover{
+    background: transparent !important;
+    border: 2px solid #FFAA47;
+    border-radius: 22px;
+    color: #FFAA47;
+}
+
+
+
+/* Banner section */
+
+.banner_wrapper{
+    height: 93vh;
+    background-image: url('Images/hero-image.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.btn-outline{
+    border: 2px solid #FFAA47;
+    border-radius: 22px;
+    color: #FFAA47;
+}
+.btn-outline:hover{
+    background-color: #FFAA47;
+    color: #fff;
+}
+
+
+/* Our Partners section */
+.partners_wrapper{
+    min-height: 430px;
+}
+
+.our-partners img{
+    height: 50px;
+    width: 150px;
+}
+
+
+/*................Large Screen View............ */
+@media (min-width:791px) {
+    .banner_wrapper h1 {
+        font-size: 59px;
+
+    }
+    .banner_wrapper p {
+        font-size: 23px;
+
+    }
+    
+}
+
+
+
+/*................Mobile View............ */
+@media (max-width:561px) {
+    .banner_wrapper {
+        height: 43vh;
+
+    }
+    
+}
