@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,28 +10,29 @@
     font-size: 29px;
     font-weight: bold;
 }
-.navbar-brand span{
+
+.navbar-brand span {
     color: #FFAA47;
 }
 
-.nav-item .nav-link{
+.nav-item .nav-link {
     font-size: 19px;
     font-weight: 600;
     color: black !important;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: #FFAA47 !important;
 }
 
-.btn-success{
+.btn-success {
     background-color: #FFAA47 !important;
     outline: none;
     border: none;
     border-radius: 22px;
 }
 
-.btn-success:hover{
+.btn-success:hover {
     background: transparent !important;
     border: 2px solid #FFAA47;
     border-radius: 22px;
@@ -42,7 +43,7 @@
 
 /* Banner section */
 
-.banner_wrapper{
+.banner_wrapper {
     height: 93vh;
     background-image: url('Images/hero-image.png');
     background-repeat: no-repeat;
@@ -50,27 +51,69 @@
 }
 
 
-.btn-outline{
+.btn-outline {
     border: 2px solid #FFAA47;
     border-radius: 22px;
     color: #FFAA47;
 }
-.btn-outline:hover{
+
+.btn-outline:hover {
     background-color: #FFAA47;
     color: #fff;
 }
 
 
 /* Our Partners section */
-.partners_wrapper{
+.partners_wrapper {
     min-height: 430px;
 }
 
-.our-partners img{
+.our-partners img {
     height: 50px;
     width: 150px;
 }
 
+
+
+
+.furniture-design {
+    background: #FBFBFB;
+}
+
+
+
+
+
+
+.testimonials-section {
+    height: 500px;
+
+}
+
+.testimoni{
+    background-color: #8f8989;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 60%;
+    margin: auto;
+    margin-top: 139px !important;
+    border-radius: 12px;
+}
+
+.blog-section{
+    min-height: 500px;
+}
+
+
+footer{
+    min-height: 169px;
+    background-color: #1A1A1A;;
+}
+footer h1,p,i{
+    color: white;
+}
 
 /*................Large Screen View............ */
 @media (min-width:791px) {
@@ -78,11 +121,12 @@
         font-size: 59px;
 
     }
+
     .banner_wrapper p {
         font-size: 23px;
 
     }
-    
+
 }
 
 
@@ -94,4 +138,5 @@
 
     }
     
+
 }
